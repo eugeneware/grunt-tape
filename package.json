@@ -1,0 +1,36 @@
+{
+  "name": "grunt-tape",
+  "version": "0.0.1",
+  "description": "Run tap/tape tests from within grunt",
+  "homepage": "https://github.com/eugeneware/grunt-tape",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/grunt-tape"
+  },
+  "bugs": "https://github.com/eugeneware/grunt-tape/issues",
+  "author": {
+    "name": "Eugene Ware",
+    "email": "eugene@noblesamurai.com",
+    "url": "https://github.com/eugeneware"
+  },
+  "keywords": [
+    "gruntplugin", "tap", "tape", "test", "testing", "node-tap", "grunt"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "BSD-3-Clause"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.0rc2"
+  },
+  "dependencies": {
+    "tape": "~2.3.2",
+    "faucet": "0.0.0",
+    "through": "~2.3.4"
+  }
+}
