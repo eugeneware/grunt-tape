@@ -23,8 +23,8 @@ module.exports = function (grunt) {
       output: 'console'
     });
 
-    var tapeRunner = require('tape/bin/tape');
-    var runner = spawn('tape', this.filesSrc);
+    var tapeRunner = require.resolve('tape/bin/tape');
+    var runner = spawn(tapeRunner, this.filesSrc);
     var format = options.pretty ? faucet() : through();
     runner.stderr.pipe(process.stderr, { end: false });
 
