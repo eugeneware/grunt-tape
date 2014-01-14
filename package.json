@@ -1,6 +1,6 @@
 {
   "name": "grunt-tape",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run tap/tape tests from within grunt",
   "homepage": "https://github.com/eugeneware/grunt-tape",
   "repository": {
@@ -14,7 +14,13 @@
     "url": "https://github.com/eugeneware"
   },
   "keywords": [
-    "gruntplugin", "tap", "tape", "test", "testing", "node-tap", "grunt"
+    "gruntplugin",
+    "tap",
+    "tape",
+    "test",
+    "testing",
+    "node-tap",
+    "grunt"
   ],
   "main": "Gruntfile.js",
   "engines": {
