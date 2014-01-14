@@ -41,7 +41,11 @@ module.exports = function (grunt) {
       if (file) {
         grunt.log.writeln('TAP output written to: ' + options.file);
       }
-      done();
+      if (code !== 0) {
+        done(new Error('TAP test failure. Exited with code ' + code));
+      } else {
+        done();
+      }
     });
   });
 };
