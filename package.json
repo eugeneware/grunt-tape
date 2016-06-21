@@ -36,8 +36,8 @@
   },
   "dependencies": {
     "cross-spawn-async": "^2.2.2",
-    "faucet": "0.0.0",
-    "tape": "~2.3.2",
+    "faucet": "0.0.1",
+    "tape": "^4.6.0",
     "through": "~2.3.4"
   }
 }
