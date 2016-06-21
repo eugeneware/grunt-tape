@@ -1,6 +1,6 @@
 {
   "name": "grunt-tape",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Run tap/tape tests from within grunt",
   "homepage": "https://github.com/eugeneware/grunt-tape",
   "repository": {
